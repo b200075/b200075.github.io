@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question</title>
+    <style>
+        
+        p{
+            border:1px solid blue;
+            background-color: aqua;
+            width:50%;
+            height: 150px;
+            margin-right: auto;
+           
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        .Naff{
+           margin:1px solid rgb(226, 60, 171);
+            background-color: rgb(55, 18, 156); 
+            position: relative;
+            top:41px;
+            left:426px;
+            width:72px;
+        }
+        .row{
+            width:992px;
+            padding: 1px;
+            margin:20px;
+            border:20px;
+        }
+       @media(min-width=768)and(max-width=991){
+        .col-lg-1,.col-lg-2,.col-lg-3{
+            float:left;
+                border:1px solid blue;
+        }
+         .col-lg-1{
+             width:16%;
+         }
+         .col-lg-2{
+                width: 20;
+            }
+            .col-lg-3{
+                width: 25%;
+            }
+       }
+       @media(max-width=767px){
+        .col-lg-1,.col-lg-2,.col-lg-3{
+            float:left;
+                border:1px solid blue;
+        }
+        
+        .col-lg-1{
+             width:45;
+         }
+         .col-lg-2{
+                width: 50;
+            }
+            .col-lg-3{
+                width: 66.7%;
+            }
+       }
+       
+    </style>
+</head>
+<body>
+    <h1>Our shop</h1>
+    <div class="row">
+    <div class="col-lg-1 ">
+        <h3 class="Naff">Chicken</h3>
+       <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="col-lg-1 ">
+        <h3 class="Naff">Beef</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="col-lg-1 ">
+        <h3 class="Naff">Sushi</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</div>
+</body>
+</html>
